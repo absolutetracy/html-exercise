@@ -1,0 +1,20 @@
+body {
+  font-size: small;
+}
+
+h1,h2 {
+  font-family: sans-serif;
+  color: #cc6600;
+  font-size: 200%;
+}
+
+p {
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 120%;
+}
+
+p.profile {
+  color: #112233;
+}
+
