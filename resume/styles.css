@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+article {
+  /* display: flex;
+  flex-wrap: wrap; */
+  background-color: #fafafa;
+  color: #505050;
+}
+
+li {
+  list-style: none;
+}
+
+section.item {
+  /* color: #343239; */
+  /* background-color: #e3e1e3; */
+  /* border-left: 2px solid;
+  border-bottom:2px solid;
+  border-radius: 5px; */
+  /* border-style: solid; */
+}
+
+section.item h2 {
+  /* color: #3bbfc3; */
+  /* border-bottom: # */
+  display: flex;
+  justify-content: center;
+
+  margin: 50px 0 50px 0;
+}
+
+section.item:first-of-type h2 {
+  margin-top: 0;
+}
+
+.content > div {
+  /* margin-bottom: 15px; */
+}
+
+.profile .content {
+
+  overflow: hidden;
+}
+
+.portrait {
+  float: right;
+  /* background-color: #FF00FF; */
+}
+
+.portrait img{
+  /* display: block; */
+  width: 80px;
+  /* height: 100px; */
+  border: 1px solid #FFF;
+  border-bottom: #
+  /* border-radius: 50%; */
+}
+
+/* .project .content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+} */
+.school {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.course {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project .content {
+  float: left;
+  overflow: hidden;
+
+  padding: 10px 0 5px 0;
+}
+
+.time-line {
+  margin: 0 auto;
+  /* height: auto; */
+  width: 2px;
+
+  background-color: #191919;
+  /* clear: both; */
+}
+
+.project-list {
+  width: 40%;
+
+  position: relative;
+
+  float: left;
+  clear: both;
+}
+
+.project-list:nth-child(even) {
+  float: right;
+}
+
+.project-list .timeline-circle {
+  position: absolute;
+  /* top: 2px; */
+  left: 123.7%;
+}
+
+.project-list:nth-child(even) .timeline-circle {
+  left: -26.3%;
+}
+
+
+.time-line svg {
+  position: relative;
+  left: -8px;
+}
+
+.timeline-content {
+  background-color: #ffffff;
+  /* width: 100%; */
+  margin: 0 10%;
+}
+
+.timeline-content h3 {
+  background-color: #424242;
+  color: #ffffff;
+  padding: 10px 0 10px 10px;
+  margin-bottom: 10px;
+}
