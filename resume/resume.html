@@ -4,10 +4,277 @@
   <title>Front-end Tour</title>
   <meta charset='utf-8'/>
   <link rel='stylesheet' href='styles.css'/>
+  <link rel='stylesheet' href='fontawesome/css/all.css'/>
 </head>
 <body>
   <div>
-    
+    <header>
+    </header>
+    <article>
+      <section class='profile item'>
+        <!-- <h2>个人信息</h2> -->
+        <div class='content'>
+          <div class='profile-header'></div>
+          <div class='portrait'>
+            <!-- <img src='images/portrait.png' alt='portrait'/> -->
+          </div>
+          <div class='profile-detail'>
+          <div>
+            <!-- <ul class='social'>
+              <li><a href='#'><i class='fab fa-facebook-f'</i></a></li>
+                <li>
+            </ul> -->
+          </div>
+          <div>
+            姓名: 徐曦
+          </div>
+          <div>
+            出生年份: 1990
+          </div>
+          <div>
+            毕业年份: 2013
+          </div>
+          <div>
+            电话: 15813319322
+          </div>
+          <div>
+            E-mail: xuxi_1990@163.com
+          </div>
+        </div>
+        </div>
+      </section>
+      <section class='education item'>
+        <h2>教育背景</h2>
+        <div class='content'>
+          <div class='school'>
+          <div>
+            <span>华南农业大学</span>
+            <span>软件工程</span>
+            <span>2009年9月</span>
+            <span>2013年6月</span>
+          </div>
+          <div>
+            学位:学士
+          </div>
+          </div>
+          <div class='course'>
+          <div class='main-course'>
+            <h3>主修课程</h3>
+            <ul class='course-list'>
+              <li>C语言程序设计</li>
+              <li>数据结构</li>
+              <li>计算机科学导论</li>
+              <li>软件工程</li>
+              <li>计算机网络</li>
+              <li>面向对象程序设计</li>
+              <li>计算操作系统</li>
+            </ul>
+          </div>
+          <div class='sub-course'>
+            <h3>选修课程</h3>
+            <ul class="course-list">
+              <li>Linux操作系统</li>
+              <li>嵌入式系统基础</li>
+              <li>编译原理</li>
+            </ul>
+          </div>
+          <div class='certificate'>
+            <h3>证书</h3>
+            <ul class='course-list'>
+              <li>大学英语测试6级(CET-6)</li>
+              <li>大学英语测试4级(CET-4)</li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class='project item'>
+        <h2>项目经验</h2>
+
+        <div class='content'>
+
+
+          <div class='project-list'>
+            <div class='timeline-circle'>
+              <i class='fas fa-circle'></i>
+            </div>
+            <div class='timeline-content'>
+            <h3>湛江市边防支队网格化布警系统</h3>
+            <div>岗位: 后端开发</div>
+            <div>技术栈: jQuery/Cesium/Node.js/Express/MySQL</div>
+            <div>
+              项目介绍:
+              <p>
+                湛江市边防支队网格化布警系统是部署在公安网上的GIS系统，能
+                帮助用户在地图上标注出各种不同类型的信息点，绘制各条巡逻路
+                线，划分管辖网格区域和辖区区域，并给这些信息关联上相关的多
+                媒体信息。布警系统可以管理派出所机构层级，给不同的用户设置
+                不同的可访问的模块的权限。系统对接公安监控网络，可通过网络
+                实时调取执法记录仪，监控摄像头画面并在系统中展示。
+               </p>
+               主要工作:
+               <ol>
+                 <li>使用Express搭建web应用骨架</li>
+                 <li>使用async库处理请求响应的异步流程</li>
+                 <li>使用mysqljs操作mysql数据库，建立管理连接池</li>
+                 <li>
+                   结合Cesium.js地图框架编写地图标注，绘制线面的业务逻辑代码，
+                   处理回传表单数据信息。
+                 </li>
+                 <li>查阅github仓库上的Cesium插件代码，理解其作用并对功能进行扩充。</li>
+                 <li>
+                   使用js-xlsx库读取用户上传到服务器的excel文档内容，生成sql语句，
+                   插入到数据库中，实现excel表格导入信息到网格化系统的功能。</li>
+                 <li>
+                   使用multer库管理上传图片、文档、视频资料流程。
+                 </li>
+               </ol>
+            </div>
+            </div>
+          </div>
+          <div class='project-list'>
+            <div class='timeline-circle'>
+              <i class='fas fa-circle'></i>
+            </div>
+            <div class='timeline-content'>
+            <h3>中铭勘测成本核算系统</h3>
+            <div>岗位: 后端开发</div>
+            <div>技术栈: jQuery/Bootstrap/Django/Python/MySQL</div>
+            <div>
+              项目介绍:
+              <p>
+                中铭勘测成本核算系统主要在中铭勘测公司内部使用，通过对项目总金额，
+                税率，每月项目收入，费用支出等数据的录入，归结统计每个项目的实际成本，
+                为财务人员掌握每个发生项目的财务数据(毛利润、净利润、实际成本)提供数据支持。
+                帮助公司财务人员更好地了解公司的财务状况。
+              </p>
+              主要工作:
+              <ol>
+                <li>数据库表字段设计</li>
+                <li>使用django搭建项目骨架</li>
+                <li>项目录入，成本统计，利润计算模块业务代码编写</li>
+              </ol>
+            </div>
+            </div>
+          </div>
+          <div class='project-list'>
+            <div class='timeline-circle'>
+              <i class='fas fa-circle'></i>
+            </div>
+            <div class='timeline-content'>
+            <h3>广州证券上市公司lvar风险因子计算系统</h3>
+            <div>岗位: 后端开发</div>
+            <div>技术栈: jQuery/Bootstrap/Django/Python/MySQL</div>
+            <div>
+              项目介绍:
+              <p>
+                广州证券A股风险因子计算系统用于计算在深圳以及上海上市公司的lvar值，
+                为内部证券分析师提供A股风险因子参考数据。通过读取excel文档数据源，
+                得到限定时间范围内的波动率数据，并把计算结果保存到数据库中以供日后快速检索。
+              </p>
+              主要工作:
+              <ol>
+                <li>与广州证券风控人员沟通，获取软件需求。</li>
+                <li>学习相关业务逻辑知识，了解lvar值计算方式</li>
+                <li>使用django搭建web项目骨架</li>
+                <li>使用xlrd/xlwt模块操作excel数据源数据</li>
+                <li>使用MySQL-python建立管理MySQL数据库连接池</li>
+                <li>使用NumPy处理风控模型的计算业务逻辑</li>
+              </ol>
+            </div>
+            </div>
+          </div>
+          <div class='project-list'>
+            <div class='timeline-circle'>
+              <i class='fas fa-circle'></i>
+            </div>
+            <div class='timeline-content'>
+            <h3>汇丰软件开发(广东)有限公司Money Mangement项目</h3>
+            <div>岗位: 软件测试</div>
+            <div>技术栈: QC</div>
+            <div>
+              主要工作:
+              <ol>
+                <li>
+                  Money Management项目现金流管理功能与消费标签功能
+                  的测试用例编写与执行
+                </li>
+                <li>测试用例执行任务分配，管理组内成员任务执行情况</li>
+              </ol>
+            </div>
+            </div>
+          </div>
+          <div class='project-list'>
+            <div class='timeline-circle'>
+              <i class='fas fa-circle'></i>
+            </div>
+            <div class='timeline-content'>
+            <h3>汇丰软件开发(广东)有限公司Stock Price Alert项目</h3>
+            <div>岗位: 软件测试</div>
+            <div>技术栈: QC/Python/Selenium</div>
+            <div>
+              主要工作:
+              <ol>
+                <li>学习Selenium，编写自动化测试脚本</li>
+                <li>编写相关业务测试用例</li>
+                <li>项目回归测试</li>
+              </ol>
+            </div>
+            </div>
+
+          </div>
+          <div class='project-list'>
+            <div class='timeline-circle'>
+              <i class='fas fa-circle'></i>
+            </div>
+            <div class='timeline-content'>
+            <h3>
+              汇丰软件开发(广东)有限公司Global Banking
+              手机客户端项目
+            </h3>
+            <div>岗位: 软件测试</div>
+            <div>技术栈: QC</div>
+            <div>
+              主要工作:
+              <ol>
+                <li>
+                  系统集成测试的测试用例编写与执行
+                </li>
+                <li>
+                  HSBC Mobile Banking客户端存款功能、转账汇款功能、
+                  即时汇率查询功能的测试用例执行
+                </li>
+              </ol>
+            </div>
+            </div>
+          </div>
+
+          <div>
+
+          </div>
+        </div>
+        <div class='time-line'>
+          <i class='fas fa-circle'></i>
+        </div>
+      </section>
+      <section class='award item'>
+        <h2>获奖情况</h2>
+        <p>
+          曾组队参与2010微软Imagine Cup，获得中国赛区嵌入式分赛区团体第二名
+        </p>
+      </section>
+      <section class='language-skill item'>
+        <h2>语言能力</h2>
+        <ul>
+          <li>阅读英文文档能力</li>
+          <li>英语口头表达能力</li>
+          <li>粤语、普通话交流能力</li>
+        </ul>
+      </section>
+    </article>
+    <footer>
+    </footer>
   </div>
+  <script src='fontawesome/js/all.js'></script>
 </body>
 </html>
